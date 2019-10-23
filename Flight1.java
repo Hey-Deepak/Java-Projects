@@ -16,11 +16,13 @@ public class Flight1{
 
         Flight1 lax1 = new Flight1();
         Flight1 lax2 = new Flight1();
-        Flight1 lax3 = new Flight1();
+        Flight1 lax3 = null;
         if(lax1.hasRoom(lax2))
             lax3 = lax1.createNewWithBoth(lax2);
         else 
             System.out.println("Program Ended... :-)");
         
+        if(lax 3 != null)
+            System.out.println("Flight combined!");
 }       
     
