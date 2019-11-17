@@ -1,11 +1,11 @@
 class Vehicle {
-    public String brand = "Ford";
+    protected String brand = "Ford";
     public void honk(){
         System.out.println("Tuuu  Tuuu  Tuuu");
     }
 }
 public class Car extends Vehicle{
-    public String modelName = "Mustang";
+    private String modelName = "Mustang";
     public static void main(String[] args) {
         Car myCar = new Car();
         myCar.honk();
