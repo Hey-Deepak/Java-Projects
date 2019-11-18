@@ -3,7 +3,7 @@ public class MultidimensionalArray {
         String[][] myName = { { "Deepak", "Choudhary", "Babu", "Suraj", "Narad" },
                               { "DC", "Dipu", "Dfuck", "Deep Fuck", "The Fuck" } };
         for (int i = 0; i < myName.length; i++) {
-            for (int j = 0; j < myName.length; j++) {
+            for (int j = 0; j < myName[i].length; j++) {
                 System.out.println(myName[i][j]);
             }
         }
