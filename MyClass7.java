@@ -6,6 +6,8 @@ public class MyClass7{
             
         } catch (Exception e) {
             System.out.println("Something Went Wrong...");
+        } finally {
+            System.out.println("Successfully Handel \"Try & Catch\" Mathod.");
         }
     }
 }
