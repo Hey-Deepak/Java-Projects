@@ -13,7 +13,7 @@ class Pig extends Animal{
 
 public class MyMainClass1{
     public static void main(String[] args) {
-        Animal myPig = new Pig();
+        Pig myPig = new Pig();
         myPig.animalSound();
         myPig.sleep();
     }
