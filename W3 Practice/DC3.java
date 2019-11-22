@@ -7,7 +7,8 @@ public class DC3 {
         DC3 myInfo = new DC3();
         myInfo.myName = "HeyDeepak";
         myInfo.myAge = 20;
-        myInfo.myFinal = myInfo.myAge; // Cannot assign a value to final variable. 
+      //  myInfo.myFinal = myInfo.myAge; 
+      // Cannot assign a value to final variable. 
         System.out.println("My Name is " + myInfo.myName + " and My Age is " + myInfo.myFinal);
     }
 
