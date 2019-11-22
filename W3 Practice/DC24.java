@@ -5,5 +5,6 @@ public class DC24 {
         for (String i : myName) {
         System.out.println(i);
         }
+        System.out.println(myName.length);
     }
 }
