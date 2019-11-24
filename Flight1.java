@@ -13,7 +13,7 @@ public class Flight1{
             newFlight1.seats = seats;
             return newFlight1;
         }
-
+        
         Flight1 lax1 = new Flight1();
         Flight1 lax2 = new Flight1();
         Flight1 lax3 = null;
